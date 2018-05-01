@@ -1,0 +1,10 @@
+{
+	"TOKEN": "<YOUR_DISCORD_TOKEN_HERE>",
+	"PREFIX": "!",
+	"COMMAND": "project",
+	"EMBED_COLOR": "#cc1133",
+	"MOD_PERMISSIONS": [
+		"MANAGE_CHANNELS"
+	],
+	"DEBUG": false
+}

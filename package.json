@@ -1,0 +1,16 @@
+{
+  "name": "projectbot",
+  "version": "1.0.0",
+  "description": "Discord Project Bot",
+  "main": "index.js",
+  "repository": "https://github.com/marcusjang/iota-discord-project-bot",
+  "author": "Marcus Jang<makerpopo@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "pouchdb": "^6.4.3",
+    "pouchdb-find": "^6.4.3",
+    "text-table": "^0.2.0",
+    "uws": "^9.148.0"
+  }
+}

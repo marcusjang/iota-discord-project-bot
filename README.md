@@ -8,6 +8,13 @@ A simple bot to manage IOTA community projects
 * Install dependencies using your favourite node package manager
 * You are good to go just with `node index`!
 
+## Workflow
+
+1. The project owner adds a project to the bot's approval queue, using `!project add`
+1. Moderators approve the project, making it visible and ready for applications
+1. When people apply for the project the project owner is notified on whether they will accept or decline
+1. Upon acceptance the applicant is sent an URL for the project, hopefully a Discord invite
+
 ## Commands
 
 * `!project`

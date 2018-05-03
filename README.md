@@ -17,13 +17,14 @@ A simple bot to manage IOTA community projects
 
 ## Commands
 
-* `!project`
+* `!project [help (optional]`
   * List all available commands
+  * `help` yeilds the same result
 * `!project list [mine|pending (optional)]`
   * List currently active projects
   * List all projects (Moderator only)
   * `mine` List my projects
-  * `pending` List pending projects
+  * `pending` List pending projects (Moderator only)
 * `!project about <NAME>`
   * Show specifics about the project
 * `!project add <NAME> <DESCRIPTION> <INVITE_URL>`

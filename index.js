@@ -163,7 +163,7 @@ client.on('message', async message => {
 		/**
 		*		!project    Shows the publically available commands
 		**/
-			if (message.content.length === 8 && message.channel.type !== 'dm') {
+			if (message.content.length === 8 || cmd == 'help') {
 				const embed = new Discord.RichEmbed()
 					.setColor(EMBED_COLOR)
 					.addField('Usage', `\`${PREFIX}project <COMMAND> <ARGUMENTS>\``)

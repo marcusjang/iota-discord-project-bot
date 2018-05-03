@@ -86,6 +86,7 @@ const dateFormat = date => {
 *		Commands
 **/
 	const generalCMDs = {
+		help: ['', 'Shows all available commands'],
 		add: ['<NAME> <DESCRIPTION> <INVITE_URL>', 'Add a new project to the approval queue. A Discord invitation link is preferably used as the invitation URL.'],
 		apply: ['<NAME> <BIO>', 'Apply to a project as a tester'],
 		optout: ['<NAME>', 'Opt out of a project\'s tester group'],
